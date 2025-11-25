@@ -1,2 +1,23 @@
 # Real-Time-Weather-Map
-A multithreaded Java application that visualizes simulated live temperature data on a map of Cork, Ireland. The program communicates with a provided weather-sensor server, fetches sensor data at fixed intervals, updates the GUI, and logs incoming readings using a dedicated worker thread.
+A Java application that displays simulated real-time temperature data on a map of Cork, Ireland. The system connects to a weather-sensor server, retrieves temperature readings at regular intervals, updates the GUI in real time, and logs all incoming data using a dedicated worker thread.
+
+**Features**
+Real-time temperature visualization
+
+Map-based UI with sensor locations
+
+Periodic data polling from external server
+
+Threaded logging for continuous data capture
+
+Clean and simple object-oriented structure
+
+**Technologies** 
+
+Java
+
+Multithreading
+
+Networking (client/server communication)
+
+Swing GUI
